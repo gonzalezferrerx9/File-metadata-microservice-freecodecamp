@@ -1,0 +1,62 @@
+/* (1) VARIABLES Y ESTILOS GLOBALES */
+:root {
+    --bg-color: #f0f8ff;
+    --container-bg: #ffffff;
+    --text-color: #4a4a4a;
+    --primary-color: #a7c7e7;
+    --button-bg: #89cff0;
+    --button-hover: #7ab8d9;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;git add .
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* (2) CONTENEDOR PRINCIPAL */
+.container {
+    background-color: var(--container-bg);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 50px;
+    max-width: 500px;
+    width: 90%;
+}
+
+/* (3) FORMULARIO DE SUBIDA */
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="file"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background-color: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--button-hover);
+}
