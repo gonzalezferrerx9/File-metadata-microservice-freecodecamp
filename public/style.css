@@ -14,7 +14,7 @@ body {
     color: var(--text-color);
     display: flex;
     justify-content: center;
-    align-items: center;git add .
+    align-items: center; 
     min-height: 100vh;
     margin: 0;
     text-align: center;
@@ -30,7 +30,7 @@ body {
     width: 90%;
 }
 
-/* (3) FORMULARIO DE SUBIDA */
+/* (3) FORMULARIO DE SUBIDA */*
 form {
     margin-top: 30px;
     display: flex;
